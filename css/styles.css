@@ -1,0 +1,20 @@
+:root {
+    --main-font: font-family: 'Roboto' sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-color: #212121;
+}
+body {
+    font-family: var(--main-font);
+}
+/*Header*/
+.navigation-item-list {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+
+}
+
+/*Main*/
+
+
+/*footer*/
+
