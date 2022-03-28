@@ -13,7 +13,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 2.583;
+  line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-color);
@@ -28,7 +28,7 @@ body {
 .navigation-list-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.333;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-color);
@@ -42,7 +42,7 @@ body {
 .header-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.333;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
@@ -55,7 +55,7 @@ body {
 .header-phone-number {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.333;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
@@ -74,7 +74,7 @@ body {
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
@@ -83,12 +83,13 @@ body {
 .main-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 2.5;
+  line-height: 30px;
   width: 200px;
   height: 50px;
   color: #ffffff;
   background-color: var(--secondary-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /*======division:paragraphs=======*/
@@ -99,20 +100,20 @@ body {
 .paragraph-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.03em;
 }
 .paragraph-content {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 42px;
 }
 .about-us-list {
   list-style-type: none;
@@ -123,12 +124,12 @@ body {
 .work-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 19px;
 }
 .work-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 19px;
   color: #757575;
 }
 
@@ -141,7 +142,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 2.583;
+  line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
@@ -152,22 +153,22 @@ body {
 .footer-adress {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.333;
+  line-height: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
   color: #ffffff;
 }
 .footer-adress:hover,
-.footer-phone-number:focus,
-.footer-phone-number:active {
+.footer-adress:focus,
+.footer-adress:active {
   color: var(--secondary-color);
 }
 
 .footer-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.333;
+  line-height: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
@@ -181,7 +182,7 @@ body {
 .footer-phone-number {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.333;
+  line-height: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
@@ -219,6 +220,7 @@ body {
 }
 .portfolio-list {
   list-style: none;
+  font-style: normal;
 }
 .portfolio-list-item-tab {
   width: 370px;
@@ -230,13 +232,13 @@ body {
 .portfolio-example {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 36px;
   letter-spacing: 0.06em;
 }
 .portfolio-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
 }
