@@ -1,20 +1,105 @@
 :root {
-    --main-font: font-family: 'Roboto' sans-serif;
-    --secondary-font: font-family: 'Raleway', sans-serif;
-    --main-color: #212121;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+  --secondary-color: #2196f3;
 }
+/*=====HEADER=====*/
 body {
-    font-family: var(--main-font);
+  font-family: var(--main-font);
 }
-/*Header*/
-.navigation-item-list {
-    font-family: 'Roboto' sans-serif;
-    font-style: normal;
-
+.logo-1 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2.583;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.logo-2 {
+  color: var(--secondary-color);
+}
+.navigation-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-list-item:hover,
+.navigation-list-item:focus,
+.navigation-list-item:active {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.navigation-list {
+  text-decoration: none;
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-mail:active {
+  color: var(--secondary-color);
+}
+.header-phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+.header-phone-number:hover,
+.header-phone-number:focus,
+.header-phone-number:active {
+  color: var(--secondary-color);
 }
 
-/*Main*/
+/*=====section:EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU=======*/
 
+.main-title {
+  background-color: #2f303a;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: #ffffff;
+}
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.5;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+}
 
-/*footer*/
+/*======division:paragraphs=======*/
 
+.paragraphs-list {
+  list-style-type: none;
+}
+.paragraph-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
