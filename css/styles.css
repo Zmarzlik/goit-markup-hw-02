@@ -4,11 +4,13 @@
   --main-color: #212121;
   --secondary-color: #2196f3;
 }
-/*=====HEADER=====*/
 body {
   font-family: var(--main-font);
   color: var(--main-color);
 }
+
+/*=====HEADER=====*/
+
 .logo-black {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -118,17 +120,19 @@ body {
   list-style-type: none;
 }
 .team-list {
-  list-style-type: none;
+  list-style-type: none; 
 }
 .work-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .work-position {
   font-size: 16px;
   line-height: 1.18;
-  color: #757575;
+  letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /*=======footer=====================*/
@@ -198,14 +202,13 @@ body {
   list-style: none;
 }
 .menu-button {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
   width: auto;
   height: 38px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.62;
   letter-spacing: 0.03em;
 }
 .menu-button:hover,
