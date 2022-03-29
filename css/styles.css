@@ -120,7 +120,7 @@ body {
   list-style-type: none;
 }
 .team-list {
-  list-style-type: none; 
+  list-style-type: none;
 }
 .work-name {
   font-weight: 500;
@@ -132,7 +132,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-    color: #757575;
+  color: #757575;
 }
 
 /*=======footer=====================*/
@@ -202,14 +202,16 @@ body {
   list-style: none;
 }
 .menu-button {
+  font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   width: auto;
   height: 38px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .menu-button:hover,
 .menu-button:focus {
