@@ -3,6 +3,13 @@
   --secondary-font: "Raleway", sans-serif;
   --main-color: #212121;
   --secondary-color: #2196f3;
+  --white-color: #ffffff;
+  --grey-color: #757575;
+  --background-color: #2f303a;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --button-background-color: #f5f4fa;
+  --button-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.3);
+  --white-border-color: #eeeeee;
 }
 body {
   font-family: var(--main-font);
@@ -47,7 +54,7 @@ body {
   line-height: 1.333;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--grey-color);
 }
 .header-mail:hover,
 .header-mail:focus,
@@ -60,7 +67,7 @@ body {
   line-height: 1.333;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--grey-color);
 }
 .header-phone-number:hover,
 .header-phone-number:focus,
@@ -71,7 +78,7 @@ body {
 /*=====section:EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU=======*/
 
 .main-title {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 .title {
   font-weight: 900;
@@ -80,7 +87,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .main-button {
   font-weight: 700;
@@ -88,7 +95,7 @@ body {
   line-height: 2.5;
   width: 200px;
   height: 50px;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--secondary-color);
   border-radius: 4px;
   cursor: pointer;
@@ -109,7 +116,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 .section-title {
   font-weight: 700;
@@ -132,12 +139,13 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 
 /*=======footer=====================*/
+
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color);
   font-style: normal;
 }
 .logo-white {
@@ -147,7 +155,7 @@ body {
   line-height: 2.583;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-list {
   list-style-type: none;
@@ -159,14 +167,13 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-adress:hover,
 .footer-adress:focus,
 .footer-adress:active {
   color: var(--secondary-color);
 }
-
 .footer-mail {
   font-weight: 500;
   font-size: 14px;
@@ -174,7 +181,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color);
 }
 .footer-mail:hover,
 .footer-mail:focus,
@@ -188,7 +195,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color);
 }
 .footer-phone-number:hover,
 .footer-phone-number:focus,
@@ -209,16 +216,15 @@ body {
   letter-spacing: 0.03em;
   width: auto;
   height: 38px;
-  background-color: #f5f4fa;
+  background-color: var(--button-background-color);
   border-radius: 4px;
   cursor: pointer;
 }
 .menu-button:hover,
 .menu-button:focus {
   background-color: var(--secondary-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: #ffffff;
+  box-shadow: var(--button-box-shadow);
+  color: var(--white-color);
   cursor: pointer;
 }
 .portfolio-list {
@@ -228,8 +234,8 @@ body {
 .portfolio-list-item-tab {
   width: 370px;
   height: 404px;
-  background-color: #ffffff;
-  border: 1px solid #eeeeee;
+  color: var(--main-color);
+  border: 1px solid var(--white-border-color);
   box-sizing: border-box;
 }
 .portfolio-example {
@@ -242,5 +248,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
