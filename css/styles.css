@@ -23,6 +23,9 @@ body {
 
 /*=====HEADER=====*/
 
+.head {
+  border-bottom: 1px solid var(--white-border-color)
+}
 .logo-black {
   font-family: var(--secondary-font);
   font-weight: 700;
