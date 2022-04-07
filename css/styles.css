@@ -88,16 +88,14 @@ body {
 
 /*=====section:EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU=======*/
 
-.team{
-  background-color: var(--second-background-color);
-}
+
 .main-title {
   background-color: var(--background-color);
 }
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.363;
+  line-height: 1,363;
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
@@ -107,12 +105,14 @@ body {
 .main-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 7,181;
+  font-style: normal;
+  line-height: 1,875;
   width: 200px;
   height: 50px;
   color: var(--white-color);
   background-color: var(--secondary-color);
   box-shadow: var(--main-button-box-shadow);
+  display: flex;
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
@@ -131,6 +131,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .paragraph-content {
   font-size: 14px;
@@ -141,11 +142,15 @@ body {
 
 /*========team=========*/
 
+.team {
+  background-color: var(--second-background-color);
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.143;
+  line-height: 1,167;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .about-us-list {
   list-style-type: none;
@@ -156,19 +161,21 @@ body {
 .caption {
   background-color: var(--white-color);
   width: 270px;
-height: 368px;
+  height: 368px;
 }
 .work-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,188;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .work-position {
   font-size: 16px;
   line-height: 1,188;
   letter-spacing: 0.03em;
   color: var(--grey-color);
+  text-align: center;
 }
 
 /*=======footer=====================*/
@@ -207,7 +214,6 @@ height: 368px;
   font-size: 14px;
   line-height: 1.333;
   letter-spacing: 0.02em;
-  text-decoration: none;
   font-style: normal;
   color: var(--footer-color);
 }
@@ -248,6 +254,7 @@ height: 368px;
   border-style: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
 }
 .menu-button:hover,
 .menu-button:focus,
@@ -276,7 +283,7 @@ height: 368px;
 }
 .portfolio-description {
   font-size: 16px;
-  line-height: 1,875;
+  line-height:1,666;
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
